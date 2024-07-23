@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:f="http://java.sun.com/jsf/core">
+
+  <h:head>
+    <title>Shopping Cart</title>
+    <h:outputStylesheet name="css/stylesheet.css" />
+  </h:head>
+ 
+  <h:body>
+  <h2 class="heading">Products</h2>
+  <h:form>
+  <!-- product list -->
+      <h:selectOneListbox id="productsListBox" title="Products you can buy">
+        <f:selectItem itemLabel="iPod" itemValue="0" />
+        <f:selectItem itemLabel="iStation" itemValue="1" />
+        <f:selectItem itemLabel="iCrate" itemValue="2" />
+        <f:selectItem itemLabel="iDeath" itemValue="3" />
+      </h:selectOneListbox>
+    </h:form>
+  </h:body>
+
+</html>
